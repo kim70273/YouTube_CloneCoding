@@ -125,6 +125,7 @@ body > .infoAndUpnext {
   height: 100%; /*버튼이 위쪽으로 가게*/
   transform: rotate(0deg); /*변화 시킴*/
   transition: transform 300ms ease-in-out;
+  z-index: -10;
 }
 
 .info .metadata .titleAndButton .moreBtn.clicked {
